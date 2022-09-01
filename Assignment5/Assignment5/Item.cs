@@ -28,7 +28,8 @@ namespace Assignment5
         public override string ToString()
         {
             // TODO: display the output like this Axe
-            return base.ToString();
+            return string.Format("Name: {0}, Amount: {1}, Group: {2}",
+                Name, Amount, Group);
         }
     }
 }
